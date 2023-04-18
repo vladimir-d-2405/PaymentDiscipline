@@ -62,7 +62,6 @@
                     <tbody class="align-middle">
     LABEL;
     foreach ($reconciliation as $line) {
-        //$rawspan = max(1, sizeof($line['paying_info']),sizeof($line['arrears_info']));
         echo <<< LABEL
                         <tr>
                             <td class="text-center">{$line['billing_info']['bill_date']}</td>
